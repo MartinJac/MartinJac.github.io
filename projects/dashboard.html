@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jac Martin · Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/#about">About</a>
+            </li>
+            <li>
+                <a href="/#projects">Projects</a>
+            </li>
+            <li>
+                <a href="/#skills">Technologies</a>
+            </li>
+            <li>
+                <a href="/#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead" style="padding:100px 15px; background: url(/images/dashboard/header.png);">
+        <div id="lead-content">
+            <h2>Personal Dashboard</h2>
+            <h3>Laravel/Vue.js Web App</h3>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay" style="background: rgba(33,125,187,0.9);"></div>
+
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About</h2>
+                    <p>
+                        The Personal Dashboard is a continuously growing piece of software that aims to function as a central control panel for various needs.
+                        The project initially started as a fork of <a href="https://github.com/spatie/dashboard.spatie.be">Spatie's dashboard</a>.
+                        This fork has transformed the project from displaying some information to a fully fledged control panel that provides control over media,
+                        full control of a LIFX smart light bulb, interact with a todo list, or view upcoming fixtures for your favourite football team.
+                    </p>
+                    <h2>Technologies Used</h2>
+                    <ul>
+                        <li>
+                            Core software:
+                            <a href="https://laravel.com/">Laravel</a>,
+                            <a href="https://vuejs.org/">Vue.js</a>,
+                            <a href="https://getmdl.io/">Material Design Lite</a>,
+                            and <a href="http://masonry.desandro.com/">Masonry</a>.
+                        </li>
+                        <li>
+                            API calls:
+                            <a href="http://kodi.wiki/view/JSON-RPC_API">Kodi</a>,
+                            <a href="https://www.wunderground.com/weather/api/">Wunderground</a>,
+                            <a href="/projects/todo">Todo</a>,
+                            <a href="football-data.org">Football-data</a>,
+                            <a href="https://api.developer.lifx.com/">LIFX</a>,
+                            and more.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>How it works</h2>
+                    <p>
+                        This project is developed around Laravel to be component based. Each visible tile will be represented by a Vue.js component.
+                        Each active component will have an id, component, location, name, and options entry, which currently provides a suitable amount of control over placement and settings for each component.
+                        Most of the components for the project are developed by myself, whereas the last.fm and calendar components were ported over from the Spatie project.
+                    </p>
+                    <h2>Components</h2>
+                    <ul>
+                        <li>
+                             General: Football Fixtures, LIFX, Todo List, Weather Forecast
+                        </li>
+                        <li>
+                            Kodi: BBC iPlayer, Kodi Control, Twitch.tv
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1>Screenshots</h1>
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="/images/dashboard/3-columns.png" target="_blank">
+                        <img class="img-responsive shadow-large" src="/images/dashboard/3-columns.png" border="0" alt="">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <a href="/images/dashboard/2-columns.png" target="_blank">
+                        <img class="img-responsive shadow-large" src="/images/dashboard/2-columns.png" border="0" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #skills -->
+    
+    <footer class="background-alt">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        &copy; 2017 Jac Martin
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MartinJac"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/js/scripts.min.js"></script>
+</body>
+
+</html>

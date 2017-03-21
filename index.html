@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jac Martin · Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header id="header">
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Technologies</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Jac Martin</h1>
+            <h2>Web Developer</h2>
+            <a href="resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am an aspiring web developer from a small seaside town in North Wales. I've earned a degree at Manchester Metropolitan University.
+                        For the past two or so years I've been working as a freelancer providing a 'Jac' of all trade service when it comes to computers or technology.
+                    </p>
+                    <br>
+                    <p>
+                        After 2 years back in North Wales, the desire for the big city life had grew too much.
+                        In late 2016 I decided to move back to Manchester where I could concentrate solely on becoming a web developer.
+                    </p>
+                    <br>
+                    <p>
+                        I currently enjoy working on my personal projects, mainly based around the Laravel and Vue.js ecosystem,
+                        and would love to work with these or similar technologies with a team of like-minded people.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="project shadow-large">
+                        <div class="project-image shadow-large">
+                            <a href="/projects/finance">
+                                <img style="width:500px" src="/images/finance/home.png" />
+                            </a>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Finance Web App</h3>
+                            <p>
+                                Built using laravel, this project started in order to take replace YNAB as my budgeting software. As such, my initial goals were to achieve feature parity with YNAB4; next on the line being multi-user support, and 3rd party API support.
+                            </p>
+                            <a href="/projects/finance">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <a href="/projects/dashboard">
+                                <img style="width:455px" src="/images/dashboard/3-columns.png"/>
+                            </a>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Personal Dashboard</h3>
+                            <p>
+                                Built using Laravel, this web-app dashboard provides useful information and tools that assist in my daily life. Allows control over lights and media centre, displays upcoming calendar events and plenty more.
+                            </p>
+                            <a href="/projects/dashboard">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project shadow-large">
+                        <div class="project-image shadow-large">
+                            <a href="/projects/leagueoflegends">
+                                <img style="margin-left:-25px; width:460px;" src="/images/leagueoflegends/matchhistory.png"/>
+                            </a>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>League of Legends: Player Search</h3>
+                            <p>
+                                Built using Laravel, this site allows players to search for their profiles to view all sort of relevant data of which can be pulled from the Riot Games API.
+                            </p>
+                            <a href="/projects/leagueoflegends">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project shadow-large">
+                        <div class="project-image shadow-large">
+                            <a>
+                            <!--<a href="/projects/todo">-->
+                                <img src="/images/Todo-Logo.png"/>
+                            </a>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Todo List API</h3>
+                            <p>
+                                Todo List API built using Laravel, built for personal use and practice of TDD. Current day-to-day interaction is mainly through a component created for the personal dashboard. 
+                            </p>
+                            <a>Coming Soon</a>
+                            <!--<a href="/projects/todo">View Project</a>-->
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project shadow-large">
+                        <div class="project-image shadow-large">
+                            <a>
+                            <!--<a href="/projects/justeat">-->
+                                <img src="/images/Just-Eat-logo.png"/>
+                            </a>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Just Eat: Chrome Extension</h3>
+                            <p>
+                                A Google Chrome extension that assists in deciding where and what food to order from just-eat.co.uk. Created after noticing a group of friends and I could never decide what to order. 
+                            </p>
+                            <a>Coming Soon</a>
+                            <!--<a href="/projects/justeat">View Project</a>-->
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project shadow-large">
+                        <div class="project-image shadow-large">
+                            <a>
+                            <!--<a href="/projects/asda">-->
+                                <img src="/images/Asda-logo.jpg"/>
+                            </a>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>ASDA: Chrome Extension</h3>
+                            <p>
+                                An extension that assists in online shopping from asda.com. Current plans are to include additional sorting options, specifically an option to sort by cost per mass/volume.
+                            </p>
+                            <a>Coming Soon</a>
+                            <!--<a href="/projects/asda">View Project</a>-->
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Technologies</h2>
+        <ul>
+            <li>Laravel</li>
+            <li>JavaScript</li>
+            <li>Vue.js</li>
+            <li>Bootstrap</li>
+            <li>GitLab</li>
+            <li>Test Driven Development</li>
+            <li>Visual Studio Code</li>
+            <li>Digital Ocean</li>
+
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/getintouch@jacmartin.co.uk">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        &copy; 2017 Jac Martin
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MartinJac"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/js/scripts.min.js"></script>
+</body>
+
+</html>
